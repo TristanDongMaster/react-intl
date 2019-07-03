@@ -9,7 +9,7 @@ import {getValue} from 'LOCALES/util';
 
 const {TabPane} = Tabs;
 
-class TabList extends React.PureComponent {
+class TabList extends React.Component {
   render () {
     const {activeKey, onChange, count} = this.props;
     const tabMap = [
