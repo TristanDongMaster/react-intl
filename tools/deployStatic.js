@@ -10,7 +10,7 @@ var remote = {
   name: 'origin',
   url: pkg.remoteStaticUrl,
   branch: 'test',
-  website: 'http://git.jd.com/h5-fe/mc-intl-static',
+  website: 'http://github.com',
   static: true,
 };
 const temp = 'tempSTATIC'
