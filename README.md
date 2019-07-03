@@ -10,6 +10,10 @@
       7. 引入antd，按需加载，支持本地化字体和主题定制
       8. 引入eslint，自动校验开发代码，错误代码无法提交commit
 
+## demo
+
+   <img src="./config/DEMO.png" width="800"/> 
+
 ## 开发启动
 
  ``` 
