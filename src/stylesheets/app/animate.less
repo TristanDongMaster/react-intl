@@ -1,0 +1,107 @@
+.animated {
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    // transform: translateY(-20px);
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@keyframes slideInDown {
+    from {
+        transform: translateY(-20px);
+    }
+
+    to {
+        transform: translateY(0px);
+    }
+}
+
+.slideInDown {
+    -webkit-animation-name: slideInDown;
+    animation-name: slideInDown;
+}
+
+.slideInLeft {
+    -webkit-animation-name: slideInLeft;
+    animation-name: slideInLeft;
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+
+.slideInRight {
+    -webkit-animation-name: slideInRight;
+    animation-name: slideInRight;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+
+@keyframes slideInLeft {
+    from {
+        -webkit-transform: translateX(-20px);
+        transform: translateX(-20px);
+        opacity: 0;
+    }
+
+    to {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(0px);
+    }
+
+    to {
+        transform: translateX(-100%)
+    }
+}
+
+@keyframes rotateIcon {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(180deg)
+    }
+}
+
+@keyframes bounceIcon {
+    from {
+        transform: scale(1.0);
+    }
+
+    from {
+        transform: scale(1.1);
+    }
+}
+
+.slideBottomIn {
+    animation-name: slideBottomIn;
+}
+.slideTopIn {
+    animation-name: slideTopIn;
+}
+
+@keyframes slideBottomIn {
+    from {
+        transform: translateY(-100px);
+    }
+
+    to {
+        transform: translateY(0)
+    }
+}
+
+@keyframes slideTopIn {
+    from {
+        transform: translateY(100px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,14 @@
+us
+.DS_Store
+.idea/
+*.lock
+*.log
+node_modules
+build
+dist
+temp
+tempHTML
+tempSTATIC
+.vscode
+.eslintrc
+.cache

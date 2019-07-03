@@ -1,0 +1,27 @@
+.spin-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    .spin-dot {
+        z-index: 99;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%)
+    }
+}
+
+.spin-mask {
+    z-index: 98;
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    user-select: none;
+    filter: blur(0.5px);
+    width: 100%;
+    height: 100%;
+}

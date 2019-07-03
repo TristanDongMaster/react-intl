@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "jsx": "react",
+    "moduleResolution": "Node",
+    "paths": {
+      "COMPONENTS/*": ["src/components/*"],
+      "MODULES/*": ["src/modules/*"],
+      "ACTIONS/*": ["src/actions/*"],
+      "REDUCERS/*": ["src/reducers/*"],
+      "SERVICES/*": ["src/services/*"],
+      "CONSTANTS/*": ["src/constants/*"]
+    }
+  },
+  "exclude": ["dist/**/*", "node_modules"]
+}

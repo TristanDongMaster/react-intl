@@ -1,0 +1,19 @@
+/*
+ *
+ *	公用
+ *
+ */
+export const COMMON_CHANGE_LANGUAGE = 'COMMON_CHANGE_LANGUAGE';
+export const COMMON_SET_LOADING = 'COMMON_SET_LOADING';
+export const COMMON_SET_INFO = 'COMMON_SET_INFO'
+export const COMMON_GET_USER_INFO = 'COMMON_GET_USER_INFO'
+export const COMMON_SET_TITLE = 'COMMON_SET_TITLE'
+
+/*
+ *
+ *	首页
+ *
+ */
+export const HOME_SET_TAB = 'HOME_SET_TAB'
+export const HOME_PROJECT_LIST = 'HOME_PROJECT_LIST'
+

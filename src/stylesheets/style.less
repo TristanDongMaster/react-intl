@@ -1,0 +1,29 @@
+// @import '~STYLESHEETS/style.less';
+
+@import "app/mixins/flex";
+@import "app/normalize";
+@import "app/animate";
+@import "app/component";
+@import "./color";
+
+// text
+.text-label {
+  font-weight: 600;
+}
+.text-h2 {
+  font-weight: 600;
+  font-size: 16px;
+  color: @gray-10
+}
+.text-error {
+  color: @gray-1
+}
+
+// util
+.f-center {
+  display: flex;
+  justify-content: center;
+}
+
+// border
+@border-normal: 1px solid #efefef;

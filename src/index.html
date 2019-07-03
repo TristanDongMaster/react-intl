@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- <%= htmlWebpackPlugin.options.ts %> -->
+    <meta charset="utf-8">
+    <title>国际化DEMO</title>
+    <link rel="shortcut icon" type="image/png" href="<%= htmlWebpackPlugin.options.asset %>/img/favicon.ico">
+    <script src='<%= htmlWebpackPlugin.options.asset %>/vendor/polyfill.min.js'></script>
+    <link rel='stylesheet' href='<%= htmlWebpackPlugin.options.asset %>/vendor/nprogress.css' />
+    <script src='<%= htmlWebpackPlugin.options.asset %>/vendor/nprogress.js'></script>
+    <style type="text/css">
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: #f8f8f8 !important;
+            min-height: 100%;
+            height: auto !important;
+            min-width: 1280px;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .gl-mask {
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+        }
+        
+        .gl-loading {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-left: -50px;
+            margin-top: -200px;
+            width: 100px;
+            height: 100px;
+        }
+        
+        .hide {
+            visibility: hidden;
+        }
+        
+        .gl-blank-wrap {
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            bottom: 30px;
+            right: 30px;
+        }
+        
+        .gl-blank-row {
+            height: 30px;
+            width: 100%;
+            background: #eee;
+            margin-bottom: 20px;
+        }
+        
+        .gl-blank-row-30 {
+            width: 30%;
+        }
+        
+        .gl-blank-row-50 {
+            width: 50%;
+        }
+        
+        .gl-blank-row-75 {
+            width: 75%;
+        }
+        
+        .gl-blank-row-90 {
+            width: 90%;
+        }
+    </style>
+    <script src='<%= htmlWebpackPlugin.options.asset %>/dll/commonVendor.db897d24.js' rel="preload"></script>
+    <script src='<%= htmlWebpackPlugin.options.asset %>/dll/reactVendor.db897d24.js' rel="preload"></script>
+    <%= htmlWebpackPlugin.options.antd %>
+</head>
+
+<body>
+    <div class="gl-mask" id="globalLoading">
+        <img class="gl-loading" src="<%= htmlWebpackPlugin.options.asset %>/img/lazyloading.gif" />
+    </div>
+    <div id="root" class="container ">
+    </div>
+
+</body>
+
+</html>
